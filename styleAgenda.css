@@ -34,6 +34,26 @@ header h1{
     margin: 0 auto;
 }
 
+.rodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #fffffe;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fffffe;
+    font-weight: bolder;
+}
+
 form{
     display: flex;
     max-width: 720px;
