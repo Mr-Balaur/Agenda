@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", sans-serif;
+}
+
+body{
+    background-color: #0f0e17;
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fffffe;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input{
+    font-size: 18px;
+    background-color:#fffffe;
+    border: none;
+    border-radius: 8px;
+    border-bottom:  2px solid black;
+    padding: 8px;
+}
+
+form button{
+    background-color: #009432;
+    color: #fffffe;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+form button:hover{
+    background-color: #02812c;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+form button:active{
+    transform: scale(0.95);
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    color: #fffffe;
+    border-bottom: 2px solid #fffffe;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td{
+    color: #fffffe;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #fffffe;
+
+}
+
+.btn-deletar {
+    padding: 6px 12px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-deletar:hover {
+    background-color: #cc0000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-deletar:active {
+    transform: scale(0.95);
+}
